@@ -42,3 +42,18 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+.hidden {
+    display: none;
+}
+
+#payment-options {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+}
+
+.payment-method {
+    margin: 20px 0;
+}
