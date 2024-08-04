@@ -2,13 +2,13 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #1e1e1e;
+    color: #ddd;
     line-height: 1.6;
 }
 
 header {
-    background: #333;
+    background: #121212;
     color: #fff;
     padding: 20px 0;
     position: relative;
@@ -34,144 +34,4 @@ header nav ul {
     gap: 20px;
 }
 
-header nav ul li {
-    margin: 0;
-}
-
-header nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 16px;
-}
-
-.hero {
-    text-align: center;
-    padding: 60px 20px;
-    background: linear-gradient(to right, #ff7e5f, #feb47b);
-    color: #fff;
-}
-
-.hero h2 {
-    font-size: 36px;
-    margin-bottom: 20px;
-}
-
-.hero button {
-    background-color: #fff;
-    color: #333;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    font-size: 16px;
-    border-radius: 5px;
-}
-
-.hero button:hover {
-    background-color: #f4f4f4;
-}
-
-main {
-    max-width: 1200px;
-    margin: 20px auto;
-    padding: 0 20px;
-}
-
-main h2 {
-    text-align: center;
-    margin-bottom: 20px;
-    font-size: 28px;
-}
-
-main p {
-    text-align: center;
-    margin-bottom: 40px;
-}
-
-.features {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-
-.feature {
-    background: #fff;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    width: 30%;
-    min-width: 250px;
-    text-align: center;
-}
-
-.feature h3 {
-    margin-bottom: 10px;
-    font-size: 20px;
-}
-
-.feature p {
-    color: #666;
-}
-
-section#pricing button {
-    display: block;
-    margin: 0 auto;
-    background-color: #333;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    font-size: 16px;
-    border-radius: 5px;
-}
-
-section#pricing button:hover {
-    background-color: #555;
-}
-
-#payment-options {
-    background-color: #fff;
-    border: 1px solid #ccc;
-    padding: 20px;
-    margin: 20px;
-    max-width: 600px;
-    margin: 20px auto;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
-
-.payment-method {
-    margin: 20px 0;
-    text-align: center;
-}
-
-.payment-method h3 {
-    margin-bottom: 10px;
-    font-size: 20px;
-}
-
-.payment-method button {
-    background-color: #333;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    font-size: 16px;
-    border-radius: 5px;
-}
-
-.payment-method button:hover {
-    background-color: #555;
-}
-
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-    position: relative;
-}
-
-footer p {
-    margin: 5px 0;
-}
+header nav ul
