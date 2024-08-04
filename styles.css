@@ -176,9 +176,4 @@ footer {
     color: #fff;
     text-align: center;
     padding: 20px;
-    position: relative;
-}
-
-footer p {
-    margin: 5px 0;
-}
+    position: relative
