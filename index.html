@@ -19,9 +19,22 @@
         <section>
             <h2>Preços</h2>
             <p>Apenas €15 por mês.</p>
-            <button onclick="subscribe()">Subscrever Agora</button>
+            <button onclick="showPaymentOptions()">Subscrever Agora</button>
         </section>
     </main>
+    <div id="payment-options" class="hidden">
+        <h2>Escolha um método de pagamento</h2>
+        <div class="payment-method">
+            <h3>MB WAY</h3>
+            <p>Número: 932581919</p>
+            <button onclick="confirmSubscription('MB WAY')">Confirmar Pagamento</button>
+        </div>
+        <div class="payment-method">
+            <h3>PayPal</h3>
+            <p>Email: davidteixeira832001@hotmail.com</p>
+            <button onclick="confirmSubscription('PayPal')">Confirmar Pagamento</button>
+        </div>
+    </div>
     <footer>
         <p>&copy; 2024 CS2 Cheats. Todos os direitos reservados.</p>
     </footer>
